@@ -1,6 +1,6 @@
 version 1.0
 
-import "fullMitoPipeline_v2_5_Single.wdl" as MitochondriaPipeline_v2_5
+import "WDL/fullMitoPipeline_v2_5_Single.wdl" as MitochondriaPipeline_v2_5
 
 workflow MitochondriaPipelineWrapper {
 
