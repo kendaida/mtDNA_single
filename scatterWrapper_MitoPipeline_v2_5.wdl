@@ -5,7 +5,7 @@ import "WDL/fullMitoPipeline_v2_5_Single.wdl" as MitochondriaPipeline_v2_5
 workflow MitochondriaPipelineWrapper {
 
   meta {
-    description: "Takes in a list of hg38 bam or cram and outputs VCF of SNP/Indel calls on the mitochondria."
+    description: "Takes in an hg38 bam or cram and outputs VCF of SNP/Indel calls on the mitochondria."
     allowNestedInputs: true
   }
 
