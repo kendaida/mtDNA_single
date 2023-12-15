@@ -3,3 +3,21 @@ workflows:
 name: scatterWrapper_MitoPipeline_v2_5
 - subclass: WDL
    primaryDescriptorPath: scatterWrapper_MitoPipeline_v2_5.wdl
+name: AlignAndCallR1_v2_5_Single
+ - subclass: WDL
+   primaryDescriptorPath: WDL/AlignAndCallR1_v2_5_Single.wdl
+name: AlignAndCallR2_v2_6_Multi
+ - subclass: WDL
+   primaryDescriptorPath: WDL/AlignAndCallR2_v2_5_Single.wdl
+name: LiftoverTools_v2_5_Single
+ - subclass: WDL
+   primaryDescriptorPath: WDL/LiftoverTools_v2_5_Single.wdl
+name: MongoTasks_v2_5_Single
+ - subclass: WDL
+   primaryDescriptorPath: WDL/MongoTasks_v2_5_Single.wdl
+name: ProduceSelfReferenceFiles_v2_5_Single
+ - subclass: WDL
+   primaryDescriptorPath: WDL/ProduceSelfReferenceFiles_v2_5_Single.wdl
+name: fullMitoPipeline_v2_5_Single
+ - subclass: WDL
+   primaryDescriptorPath: WDL/fullMitoPipeline_v2_5_Single.wdl
