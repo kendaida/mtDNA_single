@@ -19,7 +19,7 @@ workflow MitochondriaPipelineWrapper {
 
     # Read length used for optimization only. If this is too small CollectWgsMetrics might fail, but the results are not
     # affected by this number. Default is 151.
-    Int? max_read_length
+    # Int? max_read_length
 
     File ref_fasta
     File ref_fasta_index
