@@ -1,7 +1,7 @@
 version 1.0
 
 import "WDL/LiftoverTools_v2_5_Single.wdl" as LiftoverTools_Single
-import "MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
+import "WDL/MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
 
 workflow ProduceSelfReferenceFiles {
   # Running bcftools consensus when an interval file was used upstream to subset the genome
