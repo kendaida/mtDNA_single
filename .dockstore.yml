@@ -1,6 +1,6 @@
 version: 1.2
 workflows:
-
+- subclass: WDL
    primaryDescriptorPath: scatterWrapper_MitoPipeline_v2_5.wdl
 name: AlignAndCallR1_v2_5_Single
  - subclass: WDL
