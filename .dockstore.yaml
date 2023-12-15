@@ -1,5 +1,9 @@
 version: 1.2
 workflows:
+name: ProduceSelfReferenceFiles_v2_5_Single
+ - subclass: WDL
+ 
+   primaryDescriptorPath: ProduceSelfReferenceFiles_v2_5_Single.wdl
 name: fullMitoPipeline_v2_5_Single
  - subclass: WDL
    primaryDescriptorPath: fullMitoPipeline_v2_5_Single.wdl
