@@ -1,6 +1,6 @@
 version 1.0
 
-import "MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
+import "WDL/MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
 
 workflow AlignAndCallR1 {
   meta {
