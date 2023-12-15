@@ -22,6 +22,3 @@ name: LiftoverTools_v2_5_Single
 name: MongoTasks_v2_5_Single
  - subclass: WDL
    primaryDescriptorPath: MongoTasks_v2_5_Single.wdl
-name: ProduceSelfReferenceFiles_v2_5_Single
- - subclass: WDL
-   primaryDescriptorPath: ProduceSelfReferenceFiles_v2_5_Single.wdl
