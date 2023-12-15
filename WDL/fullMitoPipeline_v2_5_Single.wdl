@@ -1,10 +1,10 @@
 version 1.0
 
-import "AlignAndCallR1_v2_5_Single.wdl" as AlignAndCallR1_Single
-import "AlignAndCallR2_v2_5_Single.wdl" as AlignAndCallR2_Single
-import "LiftoverTools_v2_5_Single.wdl" as LiftoverTools_Single
-import "ProduceSelfReferenceFiles_v2_5_Single.wdl" as ProduceSelfReferenceFiles_Single
-import "MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
+import "WDL/AlignAndCallR1_v2_5_Single.wdl" as AlignAndCallR1_Single
+import "WDL/AlignAndCallR2_v2_5_Single.wdl" as AlignAndCallR2_Single
+import "WDL/LiftoverTools_v2_5_Single.wdl" as LiftoverTools_Single
+import "WDL/ProduceSelfReferenceFiles_v2_5_Single.wdl" as ProduceSelfReferenceFiles_Single
+import "WDL/MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
 
 workflow MitochondriaPipeline {
 
