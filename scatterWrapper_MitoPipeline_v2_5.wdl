@@ -4,10 +4,6 @@ import "WDL/fullMitoPipeline_v2_5_Single.wdl" as MitochondriaPipeline_v2_5
 
 workflow MitochondriaPipelineWrapper {
 
-  meta {
-    allowNestedInputs: true
-  }
-
   input {
     File wgs_aligned_input_bam_or_cram_list
     File wgs_aligned_input_bam_or_cram_index_list
