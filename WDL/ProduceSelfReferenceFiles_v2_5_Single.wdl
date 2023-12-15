@@ -1,6 +1,6 @@
 version 1.0
 
-import "LiftoverTools_v2_5_Single.wdl" as LiftoverTools_Single
+import "WDL/LiftoverTools_v2_5_Single.wdl" as LiftoverTools_Single
 import "MongoTasks_v2_5_Single.wdl" as MongoTasks_Single
 
 workflow ProduceSelfReferenceFiles {
